@@ -1,0 +1,32 @@
+{
+  "name": "allegro-to-ceneo-xml",
+  "version": "1.0.1",
+  "description": "Generates Ceneo integration XML based on provided Allegro offers.",
+  "homepage": "",
+  "author": {
+    "name": "Mateusz Biłgorajski",
+    "email": "bilgorajskim@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "allegro",
+    "ceneo"
+  ],
+  "repository": "bilgorajskim/allegro-to-ceneo-xml",
+  "bin": {
+    "allegro-to-ceneo-xml": "bin/allegro-to-ceneo-xml.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "x-ray": "^2.3.2",
+    "xmlbuilder": "^9.0.1",
+    "yargs": "^8.0.2"
+  },
+  "preferGlobal": "true"
+}
